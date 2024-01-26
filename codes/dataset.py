@@ -16,7 +16,7 @@ def audio_importation():
     audio_objects = []
 
     for i in range(0,81):
-        file_path = f'/Users/silver22/Documents/Audio_retrieval/My projects/registrazioni/{i}.wav'
+        file_path = f'/Github_path/dataset/{i}.wav'
         audio, sr, stft_signal, stft_coeff = fft_signal(file_path)
         audio_object = {'audio': audio, 'sr': sr, 'stft_signal': stft_signal, 'stft_coeff': stft_coeff}
         audio_objects.append(audio_object)
