@@ -1,4 +1,4 @@
-This repository delves into the **Hopfield Neural Network Model**.
+#Hopfield Neural Network Model
 
 
 ---
